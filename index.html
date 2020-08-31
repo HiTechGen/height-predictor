@@ -5,7 +5,14 @@
         <style>
             body {
                 background-image: linear-gradient(rgb(40,40,40), rgb(0,0,0));
-                overflow: auto;
+            }
+            html {
+                overflow: scroll;
+                overflow-x: hidden;
+            }
+            ::-webkit-scrollbar {
+                width: 0px;
+                background: transparent;
             }
             img {
                 object-fit: contain;
